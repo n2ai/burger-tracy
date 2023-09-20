@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.navBar__logo{
+    @apply w-14 h-14 bg-black;
+}
+
+.navBar__section{
+    @apply flex justify-around w-[100%];
+}
+
+.navBar__link{
+    @apply inline-flex justify-between;
+}
